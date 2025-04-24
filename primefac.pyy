@@ -1,0 +1,19 @@
+def prime_fac(n, fac=[],i=2):
+    if n<=1:
+            return fac
+    elif n%i==0:
+        fac.append(i)
+        return prime_fac(n/i,fac,i)
+    else:
+        return prime_fac(n,fac,i+1)
+
+
+n=int(input("Enter a number: "))
+print(f"Prime factors of given number are: {prime_fac(n)}")
+
+
+output
+Enter a number: 6
+Prime factors of given number are: [2, 3]
+
+=== Code Execution Successful ===
