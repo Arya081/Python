@@ -1,11 +1,11 @@
 name = input("Enter name: ")
-phone_n0 = input("Enter phone number: ")
+phone_no = input("Enter phone number: ")
 mail= input("Enter email: ")
 
 vcard = f"""BEGIN:VCARD
 VERSION:3.0
 FN:{name}
-TEL;TYPE=CELL:{phone}
+TEL;TYPE=CELL:{phone_no}
 EMAIL:{mail}
 END:VCARD
 """
