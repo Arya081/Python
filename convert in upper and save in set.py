@@ -9,3 +9,18 @@ fun(['arya'])
 output
 {'R', 'A', 'Y'}
 >>> 
+
+
+
+
+l=['arya','in','pdeu']
+new=list(map(str.upper,l))
+
+s=set(new)
+print(s)
+
+
+output
+{'IN', 'ARYA', 'PDEU'}
+
+=== Code Execution Successful ===
